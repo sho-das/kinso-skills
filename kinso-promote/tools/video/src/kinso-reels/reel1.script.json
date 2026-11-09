@@ -1,0 +1,18 @@
+{
+  "id": "reel1",
+  "post": "li-1",
+  "chunks": [
+    {"beat": "hook", "say": "Do you know what page every AI model makes, when you ask for a landing page?", "cap": "Do you know what page every AI model makes when you ask for a landing page?", "facts": "F10"},
+    {"beat": "look", "say": "Split hero. Heading left, picture right, one careful accent colour.", "cap": "Split hero. Heading left, picture right, one careful accent colour.", "facts": "F10"},
+    {"beat": "look", "say": "Yep. That was literally my page.", "cap": "Yep. That was literally my page.", "facts": "F10, F27"},
+    {"beat": "cause", "say": "And honestly, that was me. I'd rewritten good design skills into one set of my own rules.", "cap": "And honestly, that was me. I'd rewritten good design skills into one set of my own rules.", "facts": "F9, F13"},
+    {"beat": "cause", "say": "Each rule made sense. Together, every design came out the same.", "cap": "Each rule made sense. Together, every design came out the same.", "facts": "F9, F13"},
+    {"beat": "stop", "say": "So I stopped. Now each stage runs the original skill, as it is.", "cap": "So I stopped. Now each stage runs the original skill as it is.", "facts": "F8"},
+    {"beat": "fail", "say": "And the first test still failed!", "cap": "And the first test STILL failed.", "facts": "F27"},
+    {"beat": "fail", "say": "A fresh scorer gave the three options eight, five and three for AI look. Higher means less AI-looking.", "cap": "A fresh scorer gave the 3 options 8, 5 and 3 for AI look. Higher means less AI-looking.", "facts": "F27, F40"},
+    {"beat": "fail", "say": "And the test agent playing the client went straight for the three.", "cap": "And the test agent playing the client went straight for the 3.", "facts": "F27"},
+    {"beat": "gate", "say": "So now, anything under seven gets rebuilt once, or dropped.", "cap": "So now anything under 7 gets rebuilt once or dropped.", "facts": "F28"},
+    {"beat": "gate", "say": "Rerun. Seven, six, seven. The six got dropped. Stage passed.", "cap": "Rerun: 7, 6, 7. The 6 got dropped. Stage passed.", "facts": "F29"},
+    {"beat": "end", "say": "Still testing. Here's where it'll live.", "cap": "Still testing. Here's where it'll live:", "facts": "F36"}
+  ]
+}

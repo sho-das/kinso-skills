@@ -1,0 +1,45 @@
+use_default_settings:
+  engines:
+    keep_only:
+      - google
+      - google cse
+      - bing
+      - brave
+      - duckduckgo
+      - startpage
+      - mojeek
+      - yahoo
+      - qwant
+      - wikipedia
+general:
+  instance_name: "kinso-local"
+  enable_metrics: false
+server:
+  bind_address: "127.0.0.1"
+  port: 8888
+  secret_key: "ccfa6c4e74cf5b249a6c9456f8c99dcc35a1aaf5c5749154d7968ecf83c175a1"
+  limiter: false
+  public_instance: false
+  image_proxy: false
+  method: "GET"
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json
+outgoing:
+  request_timeout: 6.0
+  max_request_timeout: 12.0
+engines:
+  - name: bing
+    disabled: false
+  - name: google
+    disabled: false
+  - name: yahoo
+    disabled: false
+  - name: qwant
+    disabled: false
+  - name: mojeek
+    disabled: false
+  - name: startpage
+    disabled: false

@@ -1,0 +1,18 @@
+{
+  "id": "reel2",
+  "post": "li-2",
+  "chunks": [
+    {"beat": "hook", "say": "My test runner ran a design skill's launcher, and it downloaded a seventeen megabyte binary.", "cap": "My test runner ran a design skill's launcher, and it downloaded a 17 MB binary.", "facts": "F30"},
+    {"beat": "hook", "say": "A binary! From a design skill.", "cap": "A BINARY. From a design skill.", "facts": "F30"},
+    {"beat": "hook", "say": "Phew, it stayed inside the sandbox.", "cap": "(phew, it stayed inside the sandbox)", "facts": "F30, F21"},
+    {"beat": "why", "say": "I used to fix this by rewriting skills in my own words. That made my designs look AI-made.", "cap": "I used to fix this by rewriting skills in my own words. That made my designs look AI-made.", "facts": "F8, F9"},
+    {"beat": "why", "say": "Now outside skills run as they are, with my rules in one place around them.", "cap": "Now outside skills run as they are, with my rules in one place around them.", "facts": "F8, F16"},
+    {"beat": "before", "say": "Before. The job folder and the shared rules, like free tools only.", "cap": "Before: the job folder and the shared rules, like free tools only.", "facts": "F16, F42, F19"},
+    {"beat": "options", "say": "Options. Three, and a fresh judge picks one, with the skill names hidden.", "cap": "Options: 3, and a fresh judge picks one, with the skill names hidden.", "facts": "F17"},
+    {"beat": "guards", "say": "Guards. Scripts run only in the sandbox. Nothing gets posted without my OK.", "cap": "Guards: scripts run only in the sandbox. Nothing gets posted without my OK.", "facts": "F21, F5, F6"},
+    {"beat": "after", "say": "After. Facts, links, accessibility and S E O. Never the style.", "cap": "After: facts, links, accessibility and SEO. Never the style.", "facts": "F13"},
+    {"beat": "fix", "say": "So that launcher became one line in fixes dot M D. Banned by name, even dash dash help.", "cap": "So that launcher became one line in FIXES.md. Banned by name, even --help.", "facts": "F24, F30"},
+    {"beat": "fix", "say": "Re-ran that stage. Passed.", "cap": "Re-ran that stage. Passed.", "facts": "F24, F30"},
+    {"beat": "end", "say": "Still testing. I'll share it here once it's ready.", "cap": "Still testing. I'll share it here once it's ready:", "facts": "F36"}
+  ]
+}

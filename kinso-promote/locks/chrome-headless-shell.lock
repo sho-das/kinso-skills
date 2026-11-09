@@ -1,0 +1,21 @@
+# Chrome Headless Shell, downloaded by Remotion 4.0.539 on first render. 27 October 2026.
+name: chromium-headless-shell
+version: 157.0.8080.0 (Remotion VERSION file: 157.0.8080.0-remotion-v3)
+platform: mac-arm64
+url: https://remotion.media/chromium-headless-shell-mac-arm64-157.0.8080.0.zip?clear
+download_size: 179.2 MB (Remotion progress: 170.9 MiB; matches the HEAD request in APP-SCAN.md)
+installed_to: kinso-promote/tools/video/node_modules/.remotion/chrome-headless-shell/mac-arm64/chrome-headless-shell-mac-arm64/
+installed_size: 578 MB on disk (4,559 files)
+code_signature: adhoc (no Apple Developer ID, no team identifier)
+published_hash: none (remotion.media publishes none, and Remotion does not check one)
+
+# zip sha256: NOT RECORDED.
+# Remotion deletes the zip as soon as it has extracted it. The capture script missed it twice
+# (the file name ends in ".zip?clear", not ".zip"). It was downloaded twice; not a third time.
+
+# Instead: a hash of every extracted file.
+files_manifest: kinso-promote/locks/chrome-headless-shell.files.sha256 (one "sha256  path" line per file, sorted, paths relative to mac-arm64/)
+files_manifest_sha256: 36874fbee77d577ad3fc4eb1b5c434f386251cadc6208bee31c1a3b3ac32b2f2
+# Both downloads gave byte-identical trees (same manifest hash).
+# To check: cd tools/video/node_modules/.remotion/chrome-headless-shell/mac-arm64 &&
+#   find chrome-headless-shell-mac-arm64 -type f -print0 | sort -z | xargs -0 shasum -a 256 | shasum -a 256

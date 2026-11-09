@@ -1,0 +1,5 @@
+Source: ferdinandobons_startup-skill@a5f97c3
+Path in repo: startup-design
+Copied: 2026-10-27, unchanged, from the scanned and pinned copy in vendor/ (see vendor/LOCK.json).
+Licence: LICENSE from the repo root, copied as LICENSE
+Note: Used for references/verification-agent.md, honesty-protocol.md, industry-benchmarks.md and output-specs.md (kill criteria).

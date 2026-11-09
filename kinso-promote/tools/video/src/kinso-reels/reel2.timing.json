@@ -1,0 +1,92 @@
+{
+ "id": "reel2",
+ "voice": "af_heart",
+ "speed": 1.25,
+ "voiceEnd": 43.915,
+ "chunks": [
+  {
+   "i": 0,
+   "beat": "hook",
+   "cap": "My test runner ran a design skill's launcher, and it downloaded a 17 MB binary.",
+   "start": 0.35,
+   "end": 5.257
+  },
+  {
+   "i": 1,
+   "beat": "hook",
+   "cap": "A BINARY. From a design skill.",
+   "start": 5.407,
+   "end": 7.092
+  },
+  {
+   "i": 2,
+   "beat": "hook",
+   "cap": "(phew, it stayed inside the sandbox)",
+   "start": 7.242,
+   "end": 9.034
+  },
+  {
+   "i": 3,
+   "beat": "why",
+   "cap": "I used to fix this by rewriting skills in my own words. That made my designs look AI-made.",
+   "start": 9.354,
+   "end": 14.154
+  },
+  {
+   "i": 4,
+   "beat": "why",
+   "cap": "Now outside skills run as they are, with my rules in one place around them.",
+   "start": 14.304,
+   "end": 18.037
+  },
+  {
+   "i": 5,
+   "beat": "before",
+   "cap": "Before: the job folder and the shared rules, like free tools only.",
+   "start": 18.357,
+   "end": 21.963
+  },
+  {
+   "i": 6,
+   "beat": "options",
+   "cap": "Options: 3, and a fresh judge picks one, with the skill names hidden.",
+   "start": 22.283,
+   "end": 25.803
+  },
+  {
+   "i": 7,
+   "beat": "guards",
+   "cap": "Guards: scripts run only in the sandbox. Nothing gets posted without my OK.",
+   "start": 26.123,
+   "end": 30.389
+  },
+  {
+   "i": 8,
+   "beat": "after",
+   "cap": "After: facts, links, accessibility and SEO. Never the style.",
+   "start": 30.709,
+   "end": 34.165
+  },
+  {
+   "i": 9,
+   "beat": "fix",
+   "cap": "So that launcher became one line in FIXES.md. Banned by name, even --help.",
+   "start": 34.485,
+   "end": 39.691
+  },
+  {
+   "i": 10,
+   "beat": "fix",
+   "cap": "Re-ran that stage. Passed.",
+   "start": 39.841,
+   "end": 41.334
+  },
+  {
+   "i": 11,
+   "beat": "end",
+   "cap": "Still testing. I'll share it here once it's ready:",
+   "start": 41.654,
+   "end": 43.915
+  }
+ ]
+}

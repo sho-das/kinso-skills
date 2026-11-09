@@ -1,0 +1,92 @@
+{
+ "id": "reel1",
+ "voice": "af_heart",
+ "speed": 1.2,
+ "voiceEnd": 42.401,
+ "chunks": [
+  {
+   "i": 0,
+   "beat": "hook",
+   "cap": "Do you know what page every AI model makes when you ask for a landing page?",
+   "start": 0.35,
+   "end": 4.169
+  },
+  {
+   "i": 1,
+   "beat": "look",
+   "cap": "Split hero. Heading left, picture right, one careful accent colour.",
+   "start": 4.489,
+   "end": 8.051
+  },
+  {
+   "i": 2,
+   "beat": "look",
+   "cap": "Yep. That was literally my page.",
+   "start": 8.201,
+   "end": 9.865
+  },
+  {
+   "i": 3,
+   "beat": "cause",
+   "cap": "And honestly, that was me. I'd rewritten good design skills into one set of my own rules.",
+   "start": 10.185,
+   "end": 15.049
+  },
+  {
+   "i": 4,
+   "beat": "cause",
+   "cap": "Each rule made sense. Together, every design came out the same.",
+   "start": 15.199,
+   "end": 18.655
+  },
+  {
+   "i": 5,
+   "beat": "stop",
+   "cap": "So I stopped. Now each stage runs the original skill as it is.",
+   "start": 18.975,
+   "end": 22.623
+  },
+  {
+   "i": 6,
+   "beat": "fail",
+   "cap": "And the first test STILL failed.",
+   "start": 22.943,
+   "end": 24.394
+  },
+  {
+   "i": 7,
+   "beat": "fail",
+   "cap": "A fresh scorer gave the 3 options 8, 5 and 3 for AI look. Higher means less AI-looking.",
+   "start": 24.544,
+   "end": 30.133
+  },
+  {
+   "i": 8,
+   "beat": "fail",
+   "cap": "And the test agent playing the client went straight for the 3.",
+   "start": 30.283,
+   "end": 33.014
+  },
+  {
+   "i": 9,
+   "beat": "gate",
+   "cap": "So now anything under 7 gets rebuilt once or dropped.",
+   "start": 33.334,
+   "end": 36.385
+  },
+  {
+   "i": 10,
+   "beat": "gate",
+   "cap": "Rerun: 7, 6, 7. The 6 got dropped. Stage passed.",
+   "start": 36.535,
+   "end": 40.183
+  },
+  {
+   "i": 11,
+   "beat": "end",
+   "cap": "Still testing. Here's where it'll live:",
+   "start": 40.503,
+   "end": 42.401
+  }
+ ]
+}

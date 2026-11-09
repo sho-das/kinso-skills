@@ -1,0 +1,16 @@
+{
+  "name": "kinso-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server for Kinso Skills: route a request to the right skill, read stage files, check job status.",
+  "license": "MIT",
+  "bin": {
+    "kinso-mcp": "bin/kinso-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

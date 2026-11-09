@@ -1,0 +1,16 @@
+{
+  "name": "kinso",
+  "version": "0.1.0",
+  "description": "Installer for the Kinso Skills founder studio (Claude Code skills and commands).",
+  "license": "MIT",
+  "bin": {
+    "kinso": "bin/kinso.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
