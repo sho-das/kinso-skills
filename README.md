@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/mark-white.png">
+    <img src="assets/brand/mark-orange.png" alt="Kinso mark" width="120">
+  </picture>
+</p>
+
 # Kinso Skills
 
 Kinso is a studio for founders, inside Claude Code. It bundles 252 expert skills written by other people. Kinso adds a "brain" that decides which skills to use for each job.
