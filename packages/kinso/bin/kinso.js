@@ -20,12 +20,12 @@ const HOOK_MATCHER = 'Bash|mcp__terminal__run_in_terminal|Write|Edit|MultiEdit|N
 const HELP = `kinso ${VERSION} - installer for Kinso Skills
 
 Usage:
-  kinso install [--dir <path>] [--ref <tag or branch>] [--from <local folder>]
-  kinso doctor [--dir <path>]
-  kinso guard <project folder> [--dir <path>]
-  kinso uninstall [--dir <path>]
-  kinso --help
-  kinso --version
+  kinso-skills install [--dir <path>] [--ref <tag or branch>] [--from <local folder>]
+  kinso-skills doctor [--dir <path>]
+  kinso-skills guard <project folder> [--dir <path>]
+  kinso-skills uninstall [--dir <path>]
+  kinso-skills --help
+  kinso-skills --version
 
 Default install folder: ~/.kinso/kinso-skills
 Nothing is ever deleted. Old files are moved to ~/.Trash.`;
@@ -75,7 +75,7 @@ function parseArgs(argv) {
     } else if (a === '--version' || a === '-v') {
       opts.version = true;
     } else if (a.startsWith('--')) {
-      die(`Unknown option ${a}. Run kinso --help.`);
+      die(`Unknown option ${a}. Run kinso-skills --help.`);
     } else {
       opts._.push(a);
     }
@@ -239,7 +239,7 @@ function refuseWindows() {
     `Kinso does not run on plain Windows. Use WSL2 (Linux inside Windows):
   1. Open PowerShell as administrator and run:  wsl --install
   2. Restart the computer.
-  3. Open the Ubuntu app, then run inside WSL:  npx kinso install`
+  3. Open the Ubuntu app, then run inside WSL:  npx kinso-skills install`
   );
 }
 
@@ -258,7 +258,7 @@ function cmdInstall(opts) {
       die(`Refusing to install: ${dir} exists and is not a Kinso install. Pick another folder with --dir.`);
     }
     if (isKinsoInstall(dir)) {
-      die(`Kinso is already installed at ${dir}. Run kinso uninstall first, or pick another folder with --dir.`);
+      die(`Kinso is already installed at ${dir}. Run kinso-skills uninstall first, or pick another folder with --dir.`);
     }
   }
 
@@ -305,8 +305,8 @@ function cmdInstall(opts) {
   console.log(`
 Done. Next steps:
   1. Restart Claude Code so it sees the new commands and skill.
-  2. Run  npx kinso doctor  to check your tools.
-  3. Add the safety hook to a project:  npx kinso guard <project folder>
+  2. Run  npx kinso-skills doctor  to check your tools.
+  3. Add the safety hook to a project:  npx kinso-skills guard <project folder>
   4. In Claude Code, type  /kinso  and describe what you want made.`);
 }
 
@@ -397,12 +397,12 @@ async function cmdDoctor(opts) {
 
 async function cmdGuard(opts) {
   const project = opts._[1];
-  if (!project) die('Usage: kinso guard <project folder>');
+  if (!project) die('Usage: kinso-skills guard <project folder>');
   const proj = path.resolve(project);
   if (!fs.existsSync(proj) || !fs.statSync(proj).isDirectory()) die(`${proj} is not a folder.`);
   const dir = path.resolve(opts.dir || defaultDir());
   const guardPy = path.join(dir, 'tools', 'hooks', 'guard.py');
-  if (!fs.existsSync(guardPy)) die(`Cannot find ${guardPy}. Run kinso install first.`);
+  if (!fs.existsSync(guardPy)) die(`Cannot find ${guardPy}. Run kinso-skills install first.`);
 
   const settingsPath = path.join(proj, '.claude', 'settings.local.json');
   const answer = await ask(`Add the Kinso safety hook to ${proj}/.claude/settings.local.json? [y/N]`);
@@ -473,7 +473,7 @@ function cmdUninstall(opts) {
     console.log(`Moved ${it} -> ${dest}`);
   }
   console.log(`\nNothing was deleted. Everything is in ${bdir}`);
-  console.log('Project hooks added by kinso guard stay in .claude/settings.local.json. Remove them by hand if you want.');
+  console.log('Project hooks added by kinso-skills guard stay in .claude/settings.local.json. Remove them by hand if you want.');
 }
 
 // ---------- main ----------

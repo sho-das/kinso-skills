@@ -52,14 +52,14 @@ You need:
 
 Steps:
 
-1. Run `npx kinso install`.
+1. Run `npx kinso-skills install`.
    - It clones this repo to `~/.kinso/kinso-skills`.
    - It fills the `{{KINSO_ROOT}}` placeholder in the files with that path.
    - It copies the 8 commands to `~/.claude/commands`.
    - It copies the auto-start skill to `~/.claude/skills/kinso`.
-2. Run `npx kinso doctor`. It checks what is installed. It installs nothing.
-3. Run `npx kinso guard <project folder>`. It adds the safety hook to that project's `.claude/settings.local.json`. It asks first.
-4. To remove Kinso, run `npx kinso uninstall`. It moves the files to the Trash.
+2. Run `npx kinso-skills doctor`. It checks what is installed. It installs nothing.
+3. Run `npx kinso-skills guard <project folder>`. It adds the safety hook to that project's `.claude/settings.local.json`. It asks first.
+4. To remove Kinso, run `npx kinso-skills uninstall`. It moves the files to the Trash.
 
 Install options: `--dir <path>`, `--ref <git tag or branch>`, `--from <local folder>`.
 
@@ -235,7 +235,7 @@ Tools:
 
 It also shares `BRAIN-CORE.md`, `SKILL-INDEX.md` and each `kinso-*/SKILL.md` as `kinso://...` resources.
 
-`KINSO_ROOT` is the folder that holds `SKILL-INDEX.md` and the `kinso-*` folders. The default is `~/.kinso/kinso-skills`. If it is missing, the tools tell you to run `npx kinso install`. The heavy work (pages, code, tests) stays in your own assistant, on your own computer.
+`KINSO_ROOT` is the folder that holds `SKILL-INDEX.md` and the `kinso-*` folders. The default is `~/.kinso/kinso-skills`. If it is missing, the tools tell you to run `npx kinso-skills install`. The heavy work (pages, code, tests) stays in your own assistant, on your own computer.
 
 ## Models and cost
 
@@ -271,4 +271,4 @@ It also shares `BRAIN-CORE.md`, `SKILL-INDEX.md` and each `kinso-*/SKILL.md` as 
 | The sandbox refuses a folder: "not inside an allowed root". | Set `KINSO_ALLOWED_ROOTS` to your project folder before the command. Use a colon between several folders. Example: `KINSO_ALLOWED_ROOTS="$PWD"`. |
 | The guard blocks a command. | Read the message. It names the rule. Use the allowed way (for example, `mv` to the Trash instead of `rm`, or `run.sh` for scripts). |
 | You are on Windows without WSL2. | Run `wsl --install` in an admin terminal, restart, then install Kinso inside WSL2. Until then Kinso runs in limited mode. |
-| Something else looks wrong. | Run `npx kinso doctor`. |
+| Something else looks wrong. | Run `npx kinso-skills doctor`. |

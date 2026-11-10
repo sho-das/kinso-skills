@@ -6,7 +6,7 @@ Every bundled skill was scanned before it was added (our own scanner, pinned com
 
 - Outside skills are bundled **unchanged**. Kinso never runs their install scripts, update checks or telemetry.
 - Scripts run only through `kinso-frontend/tools/sandbox/run.sh` (macOS `sandbox-exec`): writes only in the run folder, no reading of your home folder (so no browser cookies or keys), optional no-network mode.
-- The guard hook (`tools/hooks/guard.py`, added per project with `npx kinso guard <project>`) blocks deleting files, running scripts outside the sandbox, web tools outside the collector, and git push or commit.
+- The guard hook (`tools/hooks/guard.py`, added per project with `npx kinso-skills guard <project>`) blocks deleting files, running scripts outside the sandbox, web tools outside the collector, and git push or commit.
 
 ## Known items
 

@@ -21,7 +21,7 @@ function getRoot() {
 }
 
 function rootError(root) {
-  return `Kinso is not installed at ${root}. Run \`npx kinso install\`, or set KINSO_ROOT to your Kinso Skills folder.`;
+  return `Kinso is not installed at ${root}. Run \`npx kinso-skills install\`, or set KINSO_ROOT to your Kinso Skills folder.`;
 }
 
 function rootOk(root) {

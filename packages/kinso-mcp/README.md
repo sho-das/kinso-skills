@@ -32,4 +32,4 @@ claude mcp add kinso -- npx -y kinso-mcp
 ## KINSO_ROOT
 
 The folder that holds `SKILL-INDEX.md` and the `kinso-*` folders. Default: `~/.kinso/kinso-skills`.
-If it is missing, the tools tell you to run `npx kinso install`.
+If it is missing, the tools tell you to run `npx kinso-skills install`.
