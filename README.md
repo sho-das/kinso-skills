@@ -7,11 +7,15 @@
 
 # Kinso Skills
 
-Kinso is a studio for founders, inside Claude Code. It bundles 252 expert skills written by other people. Kinso adds a "brain" that decides which skills to use for each job.
+**Kinso takes a founder's idea from start to launch: check the idea, plan the business, build the product, test it, and promote it - all inside Claude Code.**
+
+- **Free and open source,** under the [MIT licence](LICENSE).
+- **252 expert skills in one place,** written by other authors. For each step, Kinso picks the best 2 or 3, has each one make a real version, and a blind judge ranks them. You choose.
+- **Checked for safety.** We scan every bundled skill and keep a security log: [SECURITY.md](SECURITY.md), also under the **Security** tab at the top of this page.
 
 ## Quick start - no technical knowledge needed
 
-Kinso helps you check a business idea, plan it, build it and launch it. You type what you want in plain words. Kinso asks a few questions, makes 2 or 3 versions, shows you the best one first, and you choose.
+You type what you want in plain words. Kinso asks a few questions, makes 2 or 3 versions, shows you the best one first, and you choose.
 
 ### What you need
 
