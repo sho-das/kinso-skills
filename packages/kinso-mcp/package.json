@@ -12,5 +12,24 @@
   ],
   "engines": {
     "node": ">=20"
-  }
+  },
+  "author": "Soumya Das (https://github.com/sho-das)",
+  "homepage": "https://github.com/sho-das/kinso-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sho-das/kinso-skills.git",
+    "directory": "packages/kinso-mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/sho-das/kinso-skills/issues"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "agents",
+    "mcp",
+    "founder",
+    "kinso"
+  ]
 }
