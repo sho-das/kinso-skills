@@ -2,6 +2,51 @@
 
 Kinso is a studio for founders, inside Claude Code. It bundles 252 expert skills written by other people. Kinso adds a "brain" that decides which skills to use for each job.
 
+## Quick start - no technical knowledge needed
+
+Kinso helps you check a business idea, plan it, build it and launch it. You type what you want in plain words. Kinso asks a few questions, makes 2 or 3 versions, shows you the best one first, and you choose.
+
+### What you need
+
+- A Mac (macOS 13 or newer). Linux and Windows are coming later.
+- A paid Claude plan (Pro or Max) and the **Claude** desktop app with **Claude Code**. Get it at [claude.ai/download](https://claude.ai/download). Kinso itself is free; your Claude plan covers the AI work.
+- **Node.js**, a free program Kinso's installer needs. Get the "LTS" Mac installer at [nodejs.org](https://nodejs.org) and double-click it.
+
+### Install (about 2 minutes, once)
+
+1. Open the **Terminal** app: press `Cmd + Space`, type `Terminal`, press Enter.
+2. Copy this line, paste it into Terminal, and press Enter:
+
+   ```bash
+   npx kinso-skills install
+   ```
+
+   If it asks "Ok to proceed?", type `y` and press Enter.
+3. When it says **Done**, quit the Claude app fully (`Cmd + Q`) and open it again.
+
+### Use it
+
+1. In the Claude app, open **Code** and start a new session in a folder for your project. Any empty folder works, for example a new folder called `my-idea`.
+2. Type `/kinso` and press Enter. Or just say what you want, for example:
+   - "I have an idea for an app that helps families share chores. Is it worth building?"
+   - "Make me a landing page for my bakery in Lisbon."
+   - "Help me price my online course."
+   - "Make me a logo for my coffee brand."
+3. Kinso sums up what it understood, suggests where to start, and asks before it begins.
+4. Answer its questions. It shows you the options it made, with the best one first. Pick one, ask to mix parts ("the top of option 2 with the colours of option 1"), or ask for a redo.
+
+Everything Kinso makes is saved in a `kinso` folder inside your project folder. Nothing is posted, published or paid for without you.
+
+### Good to know
+
+- **Cost:** a full run uses a lot of your Claude plan's allowance. Kinso tells you what it will run and asks first.
+- **Optional extras:** web search, screenshots, video and voice need extra tools. Kinso still works without them; it tells you which steps it skipped. See [Optional tools](#optional-tools).
+- **Check your setup:** run `npx kinso-skills doctor` in Terminal. It lists what is installed and what is missing. It changes nothing.
+- **Remove Kinso:** run `npx kinso-skills uninstall`. It moves Kinso's files to your Trash.
+- **Use Kinso in other apps (optional):** after installing, run `claude mcp add kinso -- npx -y kinso-mcp` to connect it to Claude Code as a tool server. See [Use it as an MCP server](#use-it-as-an-mcp-server).
+
+The rest of this page is the detailed guide.
+
 ## What Kinso is
 
 - It is an aggregator. The 252 outside skills are copied unchanged. Each keeps its own licence.
